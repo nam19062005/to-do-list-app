@@ -1,0 +1,22 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix ./be && npm install --prefix ./fe && npm run build --prefix ./fe ",
+    "start":"npm run start --prefix ./be "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nam19062005/to-do-list-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nam19062005/to-do-list-app/issues"
+  },
+  "homepage": "https://github.com/nam19062005/to-do-list-app#readme"
+}
